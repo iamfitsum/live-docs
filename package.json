@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^6.9.13",
+    "@clerk/themes": "^2.2.8",
     "@lexical/react": "^0.23.1",
     "@lexical/rich-text": "^0.23.1",
     "@lexical/selection": "^0.23.1",
