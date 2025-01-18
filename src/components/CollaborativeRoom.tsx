@@ -13,7 +13,7 @@ const CollaborativeRoom = () => {
         <div className="collaborative-room">
           <Header>
             <div className="flex w-fit items-center justify-center gap-2">
-              <p className="document-title">This is a test document title</p>
+              <p className="document-title">Share</p>
             </div>
             <SignedOut>
               <SignInButton />
