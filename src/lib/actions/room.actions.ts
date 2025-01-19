@@ -13,7 +13,8 @@ export const createDocument = async ({ userId, email }: CreateDocumentParams) =>
     const metadata = {
       creatorId: userId,
       email,
-      title: 'Untitled'
+      title: 'Untitled',
+      createdAt: new Date().toISOString()
     }
 
     const usersAccesses: RoomAccesses = {

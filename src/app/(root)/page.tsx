@@ -10,6 +10,15 @@ import Image from "next/image";
 import Link from "next/link";
 import { redirect } from "next/navigation";
 
+type RoomDocument = {
+  id: string;
+  metadata: {
+    title: string;
+    createdAt: string;
+  };
+};
+
+
 const Home = async () => {
   const clerkUser = await currentUser();
 
@@ -40,7 +49,7 @@ const Home = async () => {
             />
           </div>
           <ul className="document-ul">
-            {roomDocuments.data.map(({ id, metadata, createdAt }: any) => (
+            {roomDocuments.data.map(({ id, metadata }: RoomDocument) => (
               <li key={id} className="document-list-item">
                 <Link
                   href={`/documents/${id}`}
@@ -57,7 +66,7 @@ const Home = async () => {
                   <div className="space-y-1">
                     <p className="line-clamp-1 text-lg">{metadata.title}</p>
                     <p className="text-sm font-light text-blue-100">
-                      Created about {dateConverter(createdAt)}
+                      Created about {dateConverter(metadata.createdAt)}
                     </p>
                   </div>
                 </Link>
