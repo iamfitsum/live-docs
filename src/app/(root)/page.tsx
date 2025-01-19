@@ -18,7 +18,6 @@ type RoomDocument = {
   };
 };
 
-
 const Home = async () => {
   const clerkUser = await currentUser();
 
