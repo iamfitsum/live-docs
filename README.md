@@ -5,6 +5,10 @@
 
 <br/>
 
+**LiveDocs** is an innovative platform designed to revolutionize real-time collaboration. Whether you're working on a team document, brainstorming ideas, or organizing projects, LiveDocs empowers you with seamless text editing, rich commenting features, and an intuitive user interface. Built with cutting-edge technology, it ensures a secure, efficient, and responsive experience for teams of all sizes.
+
+---
+
 ## 📑 Table of Contents
 
 - [✨ Features](#-features)
@@ -14,7 +18,7 @@
 - [🙏 Acknowledgements](#-acknowledgements)
 - [📜 License](#-license)
 
-# LiveDocs
+---
 
 ## ✨ Features
 
@@ -30,6 +34,8 @@ LiveDocs is a collaborative text editor designed to deliver a seamless real-time
 
 And much more, including thoughtfully designed code architecture and reusable components.
 
+---
+
 ## 🛠️ Technologies Used
 
 LiveDocs is powered by a modern tech stack:
@@ -42,6 +48,8 @@ LiveDocs is powered by a modern tech stack:
 - **Tailwind CSS**: For custom, responsive, and scalable styling.
 - **Clerk**: Secure and seamless user authentication.
 - **Sentry**: Error monitoring and performance tracking.
+
+---
 
 ## 📂 File Structure
 
@@ -126,6 +134,8 @@ The project is organized as follows:
     └── index.d.ts
 ```
 
+---
+
 ## 🚀 Getting Started
 
 Follow these steps to set up the project locally on your machine:
@@ -184,9 +194,13 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000) in your browser to view the project.
 
+---
+
 ## 🙏 Acknowledgements
 
 Special thanks to [Adrian](https://github.com/adrianhajdin) from JSMastery for his insightful video tutorial that guided the development of this project. Check out the course video [here](https://www.youtube.com/watch?v=y5vE8y_f_OM).
+
+---
 
 ## 📜 License
 
